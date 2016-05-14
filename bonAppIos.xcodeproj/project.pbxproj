@@ -79,9 +79,10 @@
 		A2720ABA1CCD2A230014A9F1 /* bonAppIos */ = {
 			isa = PBXGroup;
 			children = (
+				A27D34561CE7F283001EC965 /* Controller */,
+				A27D34551CE7F27C001EC965 /* View */,
+				A27D34541CE7F273001EC965 /* Model */,
 				A2720ABD1CCD2A230014A9F1 /* AppDelegate.swift */,
-				A2720ABF1CCD2A230014A9F1 /* FirstViewController.swift */,
-				A2720AC11CCD2A230014A9F1 /* SecondViewController.swift */,
 				A2720AC31CCD2A230014A9F1 /* Main.storyboard */,
 				A2720AC61CCD2A230014A9F1 /* Images.xcassets */,
 				A2720AC81CCD2A230014A9F1 /* LaunchScreen.xib */,
@@ -113,6 +114,29 @@
 				A2720AD41CCD2A230014A9F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A27D34541CE7F273001EC965 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A27D34551CE7F27C001EC965 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A27D34561CE7F283001EC965 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2720ABF1CCD2A230014A9F1 /* FirstViewController.swift */,
+				A2720AC11CCD2A230014A9F1 /* SecondViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
