@@ -159,6 +159,7 @@
 		A2720AB01CCD2A230014A9F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Thomas Macquart";
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				A2720ADB1CCD2A230014A9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2720ADC1CCD2A230014A9F1 /* Build configuration list for PBXNativeTarget "bonAppIosTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				A2720ADE1CCD2A230014A9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
