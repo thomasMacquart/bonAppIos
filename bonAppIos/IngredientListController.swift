@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  bonAppIos
 //
 //  Created by Thomas Macquart on 24/04/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class IngredientListController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
