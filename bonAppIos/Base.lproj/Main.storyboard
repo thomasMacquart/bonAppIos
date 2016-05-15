@@ -9,7 +9,7 @@
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="bonAppIos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="RecipeListController" customModule="bonAppIos" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -37,6 +37,9 @@
                                     <constraint firstAttribute="width" secondItem="gYn-go-Lhs" secondAttribute="height" multiplier="23:15" id="H0f-Ai-IaV"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onCreateRecipeClicked" destination="9pv-A4-QxB" eventType="touchUpInside" id="z8o-Tg-1Ti"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -50,6 +53,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                     <connections>
+                        <outlet property="createRecipeButton" destination="gYn-go-Lhs" id="4w2-JN-npe"/>
                         <segue destination="1he-HX-dDy" kind="show" identifier="createRecipeSegue" id="Orr-F3-Mox"/>
                     </connections>
                 </viewController>
