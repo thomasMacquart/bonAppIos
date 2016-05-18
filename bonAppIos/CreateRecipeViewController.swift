@@ -10,6 +10,8 @@ import UIKit
 
 class CreateRecipeViewController : UIViewController {
     
+    @IBOutlet var recipeTitleInput : UITextField!
+    
     override func viewDidLoad() {
         self.navigationItem.title = "create new recipe"
     }

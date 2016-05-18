@@ -85,8 +85,40 @@
                     <view key="view" contentMode="scaleToFill" id="nbO-dz-ewN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hzl-Xq-9BZ">
+                                <rect key="frame" x="487" y="112" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="ar8-VW-d0V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipe title:" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SD8-9M-kri">
+                                <rect key="frame" x="60" y="116" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GA-nn-lM2">
+                                <rect key="frame" x="0.0" y="521" width="600" height="30"/>
+                                <color key="backgroundColor" red="0.79679608589999995" green="0.24485607149999999" blue="0.29307300200000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SD8-9M-kri" firstAttribute="leading" secondItem="nbO-dz-ewN" secondAttribute="leading" constant="60" id="cyg-u5-xet"/>
+                            <constraint firstAttribute="trailing" secondItem="hzl-Xq-9BZ" secondAttribute="trailing" constant="16" id="egF-1Q-ryw"/>
+                            <constraint firstItem="hzl-Xq-9BZ" firstAttribute="centerY" secondItem="SD8-9M-kri" secondAttribute="centerY" id="nV1-tu-sh4"/>
+                            <constraint firstItem="hzl-Xq-9BZ" firstAttribute="top" secondItem="Vhe-Xc-5fM" secondAttribute="bottom" constant="48" id="zcR-UM-as4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="recipeTitleInput" destination="hzl-Xq-9BZ" id="Oi6-I7-d1s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrf-NL-pCl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
