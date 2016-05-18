@@ -10,4 +10,7 @@ import UIKit
 
 class CreateRecipeViewController : UIViewController {
     
+    override func viewDidLoad() {
+        self.navigationItem.title = "create new recipe"
+    }
 }
